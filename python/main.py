@@ -8,7 +8,7 @@ import InverseKinematics as IK
 import positioning as PS
 import coordination as CO
 import contour
-import test
+import object_detection_yolo as test
 
 #Serial port 建立連線
 ser = sl.Serial('COM6', 115200, timeout=3)
